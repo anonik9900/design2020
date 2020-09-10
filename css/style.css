@@ -1,0 +1,268 @@
+/* CSS BY Nicholas Impieri (C) 2020
+
+GPL V3
+
+*/
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.navbar{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  font-weight: 700;
+  padding: 0 30px;
+  background-color: rgb(255,217,0);
+  font-size: 16px;
+}
+
+span{
+  color: coral;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li{
+  list-style: none;
+  color: white;
+}
+
+.navbar ul li a:hover{
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}
+
+.centro h1{
+  margin-top: -200px;
+  color: white;
+  font-size: 40px;
+  z-index:  4;
+}
+
+.centro{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../media/back.jpg') no-repeat center center/cover;
+
+}
+
+.centro::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.media-button{
+  transition: all 0.5s ease;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  border-radius: 4px;
+  border: solid 2px white;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+a.media-link{
+  margin-top: 50px;
+  transition: all 0.5s ease;
+  color: white;
+  z-index: 4;
+  border: none;
+}
+
+.media-button:hover{
+  transition: all 0.5s ease;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.about-us{
+  /*
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  */
+  align-items: center;
+  background: white;
+}
+
+
+h1.title{
+  margin-top: 50px;
+  color: black;
+  font-size: 70px;
+  font-family: "Poppins",sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+
+.parallax {
+/* The image used */
+background-image: url("../media/team.png"); /*Use .jpg image for  a speed loading */
+
+/* Set a specific height */
+min-height: 500px;
+width: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: scroll;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+/* The image used */
+background-image: url("../media/back1.jpg"); /*Use .jpg image for  a speed loading */
+
+/* Set a specific height */
+min-height: 500px;
+width: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: scroll;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+.parallax2 .media-button{
+  transition: all 0.5s ease;
+  background-color: white;
+  color: black;
+}
+
+
+
+
+p.fluffy {
+  text-align: center !important;
+  font-family: "Poppins",sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 50px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+
+.footer{
+  width: 100%;
+  background-color: black;
+  height: 33vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  background-color: rgb(255,217,0);
+}
+
+span.footer-title{
+  color: white;
+}
+
+.footer ul li {
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+}
+
+.footer li{
+  padding-bottom: 20px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+.footer a:hover{
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+}
+
+.footer h2{
+  font-size: 27px;
+  padding-bottom: 10px;
+}
+
+@media (max-width:780px){
+  .navbar{
+    flex-direction: column;
+    height: 140px;
+    padding: 20px;
+  }
+  .centro{
+    text-align: center;
+  }
+  .about-us{
+    text-align: center;
+  }
+  .footer{
+    text-align: center;
+    flex-direction: column;
+    height: 500px;
+    padding: 20px;
+  }
+}

@@ -327,6 +327,41 @@ background-size: cover;
 }
 
 
+.sezion2{
+  align-items: center;
+  width: 100%;
+  background: #fff;
+}
+
+.parallax-sezione2{
+    background-image: url("../media/sfondo.jpg");
+    min-height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1.sezione2-title{
+  color: white;
+  font-size: 90px;
+  font-family: "Poppins",sans-serif;
+  margin: 0;
+  margin-left: 3px;
+  padding-top: 20vw;
+  padding-bottom: 20vw;
+}
+
+p.parallax2-descrizione{
+  color: white;
+  font-size: 30px;
+  font-family: "Poppins",sans-serif;
+  margin: 0;
+  margin-left: 3px;
+  padding-bottom: 20px;
+}
+
+
 /*RESPONSIVE */
 @media (max-width:780px){
   .navbar{
@@ -356,4 +391,21 @@ background-size: cover;
   .citazione blockquote{
     font-size: 4vw;
   }
+
+  h1.sezione2-title{
+  color: white;
+  font-size: 9vw;
+  font-family: "Poppins",sans-serif;
+  margin: 0;
+  padding-top: 60vw !important;
+}
+
+p.parallax2-descrizione{
+  color: white;
+  font-size: 25px;
+  font-family: "Poppins",sans-serif;
+  margin: 0;
+  margin-left: 3px;
+}
+
 }

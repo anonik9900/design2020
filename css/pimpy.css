@@ -1,0 +1,632 @@
+
+/*Import FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+/*End Import Fonts*/
+
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.text-bg-transparent{
+  font-size: 8vw;
+  font-family: Poppins, Arial;
+  text-align: center;
+  background-image: url(../media/back2.jpg);
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+/*BACKGROUND VARIABLES*/
+.-bg-01{
+  background-image: url(../media/1.jpg) !important;
+}
+.-bg-02{
+  background-image: url(../media/2.jpg) !important;
+}
+.-bg-03{
+  background-image: url(../media/3.jpg) !important;
+}
+.-bg-04{
+  background-image: url(../media/4.jpg) !important;
+}
+.-bg-05{
+  background-image: url(../media/5.jpg) !important;
+}
+.-bg-06{
+  background-image: url(../media/6.jpg) !important;
+}
+.-bg-07{
+  background-image: url(../media/7.jpg) !important;
+}
+.-bg-08{
+  background-image: url(../media/8.jpg) !important;
+}
+.-bg-09{
+  background-image: url(../media/9.jpg) !important;
+}
+.-bg-10{
+  background-image: url(../media/10.jpg) !important;
+}
+.-bg-11{
+  background-image: url(../media/11.jpg) !important;
+}
+.-bg-12{
+  background-image: url(../media/12.jpg) !important;
+}
+/*END BACKGROUND VARIABLES*/
+
+/*TEXT SHADOWS*/
+
+/*--------------------BLACK & BOLD ----------------------*/
+.-text-bblack{
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold2{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold3{
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+.-text-bblack-bold4{
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
+}
+/*-------------------- END BLACK & BOLD ----------------------*/
+
+
+/*-------------------- WHITE & BOLD ----------------------*/
+.-text-bwhite{
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold2{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold3{
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: white;
+}
+.-text-bwhite-bold4{
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: white;
+}
+/*-------------------- END WHITE & BOLD ----------------------*/
+
+/*-------------------- RED & BOLD ----------------------*/
+.-text-bred{
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold2{
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold3{
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: red;
+}
+.-text-bred-bold4{
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: red;
+}
+/*-------------------- END RED & BOLD ----------------------*/
+/*END TEXT SHADOWS*/
+
+
+/*---------Font Size Variables------- */
+
+.-fsize-2px{
+  font-size: 2px !important;
+}
+.-fsize-4px{
+  font-size: 4px !important;
+}
+.-fsize-5px{
+  font-size: 5px !important;
+}
+.-fsize-6px{
+  font-size: 6px !important;
+}
+.-fsize-7px{
+  font-size: 7px !important;
+}
+.-fsize-8px{
+  font-size: 8px !important;
+}
+.-fsize-9px{
+  font-size: 9px !important;
+}
+.-fsize-10px{
+  font-size: 10px !important;
+}
+.-fsize-12px{
+  font-size: 12px !important;
+}
+.-fsize-14px{
+  font-size: 14px !important;
+}
+.-fsize-16px{
+  font-size: 16px !important;
+}
+.-fsize-18px{
+  font-size: 18px !important;
+}
+.-fsize-20px{
+  font-size: 20px !important;
+}
+.-fsize-22px{
+  font-size: 22px !important;
+}
+.-fsize-24px{
+  font-size: 24px !important;
+}
+.-fsize-26px{
+  font-size: 26px !important;
+}
+.-fsize-28px{
+  font-size: 28px !important;
+}
+.-fsize-30px{
+  font-size: 30px !important;
+}
+.-fsize-32px{
+  font-size: 32px !important;
+}
+.-fsize-34px{
+  font-size: 34px !important;
+}
+.-fsize-36px{
+  font-size: 36px !important;
+}
+.-fsize-38px{
+  font-size: 38px !important;
+}
+.-fsize-40px{
+  font-size: 40px !important;
+}
+.-fsize-42px{
+  font-size: 42px !important;
+}
+.-fsize-44px{
+  font-size: 44px !important;
+}
+.-fsize-46px{
+  font-size: 46px !important;
+}
+.-fsize-48px{
+  font-size: 48px !important;
+}
+.-fsize-50px{
+  font-size: 50px !important;
+}
+.-fsize-52px{
+  font-size: 52px !important;
+}
+.-fsize-54px{
+  font-size: 54px !important;
+}
+.-fsize-56px{
+  font-size: 56px !important;
+}
+.-fsize-58px{
+  font-size: 58px !important;
+}
+.-fsize-60px{
+  font-size: 60px !important;
+}
+.-fsize-62px{
+  font-size: 62px !important;
+}
+.-fsize-64px{
+  font-size: 64px !important;
+}
+.-fsize-66px{
+  font-size: 66px !important;
+}
+.-fsize-68px{
+  font-size: 68px !important;
+}
+.-fsize-70px{
+  font-size: 70px !important;
+}
+.-fsize-72px{
+  font-size: 72px !important;
+}
+.-fsize-74px{
+  font-size: 74px !important;
+}
+.-fsize-76px{
+  font-size: 76px !important;
+}
+.-fsize-78px{
+  font-size: 78px !important;
+}
+.-fsize-80px{
+  font-size: 80px !important;
+}
+.-fsize-82px{
+  font-size: 82px !important;
+}
+.-fsize-84px{
+  font-size: 84px !important;
+}
+.-fsize-86px{
+  font-size: 86px !important;
+}
+.-fsize-88px{
+  font-size: 88px !important;
+}
+.-fsize-90px{
+  font-size: 90px !important;
+}
+.-fsize-92px{
+  font-size: 92px !important;
+}
+.-fsize-94px{
+  font-size: 94px !important;
+}
+.-fsize-96px{
+  font-size: 96px !important;
+}
+.-fsize-98px{
+  font-size: 98px !important;
+}
+.-fsize-100px{
+  font-size: 100px !important;
+}
+.-fsize-102px{
+  font-size: 102px !important;
+}
+.-fsize-104px{
+  font-size: 104px !important;
+}
+.-fsize-106px{
+  font-size: 106px !important;
+}
+.-fsize-108px{
+  font-size: 108px !important;
+}
+.-fsize-110px{
+  font-size: 110px !important;
+}
+
+/*---------End Font Size Variables----------*/
+
+/*Font Size Variables VIEWPORT ----------------------*/
+.-fsize-2vw{
+  font-size: 2vw !important;
+}
+.-fsize-4vw{
+  font-size: 4vw !important;
+}
+.-fsize-5vw{
+  font-size: 5vw !important;
+}
+.-fsize-6vw{
+  font-size: 6vw !important;
+}
+.-fsize-7vw{
+  font-size: 7vw !important;
+}
+.-fsize-8vw{
+  font-size: 8vw !important;
+}
+.-fsize-9vw{
+  font-size: 9vw !important;
+}
+.-fsize-10vw{
+  font-size: 10vw !important;
+}
+.-fsize-12vw{
+  font-size: 12vw !important;
+}
+.-fsize-14vw{
+  font-size: 14vw !important;
+}
+.-fsize-16vw{
+  font-size: 16vw !important;
+}
+.-fsize-18vw{
+  font-size: 18vw !important;
+}
+.-fsize-20vw{
+  font-size: 20vw !important;
+}
+.-fsize-22vw{
+  font-size: 22vw !important;
+}
+.-fsize-24vw{
+  font-size: 24vw !important;
+}
+.-fsize-26vw{
+  font-size: 26vw !important;
+}
+.-fsize-28vw{
+  font-size: 28vw !important;
+}
+.-fsize-30vw{
+  font-size: 30vw !important;
+}
+.-fsize-32vw{
+  font-size: 32vw !important;
+}
+.-fsize-34vw{
+  font-size: 34vw !important;
+}
+.-fsize-36vw{
+  font-size: 36vw !important;
+}
+.-fsize-38vw{
+  font-size: 38vw !important;
+}
+.-fsize-40vw{
+  font-size: 40vw !important;
+}
+.-fsize-42vw{
+  font-size: 42vw !important;
+}
+.-fsize-44vw{
+  font-size: 44vw !important;
+}
+.-fsize-46vw{
+  font-size: 46vw !important;
+}
+.-fsize-48vw{
+  font-size: 48vw !important;
+}
+.-fsize-50vw{
+  font-size: 50vw !important;
+}
+.-fsize-52vw{
+  font-size: 52vw !important;
+}
+.-fsize-54vw{
+  font-size: 54vw !important;
+}
+.-fsize-56vw{
+  font-size: 56vw !important;
+}
+.-fsize-58vw{
+  font-size: 58vw !important;
+}
+.-fsize-60vw{
+  font-size: 60vw !important;
+}
+.-fsize-62vw{
+  font-size: 62vw !important;
+}
+.-fsize-64vw{
+  font-size: 64vw !important;
+}
+.-fsize-66vw{
+  font-size: 66vw !important;
+}
+.-fsize-68vw{
+  font-size: 68vw !important;
+}
+.-fsize-70vw{
+  font-size: 70vw !important;
+}
+.-fsize-72vw{
+  font-size: 72vw !important;
+}
+.-fsize-74vw{
+  font-size: 74vw !important;
+}
+.-fsize-76vw{
+  font-size: 76vw !important;
+}
+.-fsize-78vw{
+  font-size: 78vw !important;
+}
+.-fsize-80vw{
+  font-size: 80vw !important;
+}
+.-fsize-82vw{
+  font-size: 82vw !important;
+}
+.-fsize-84vw{
+  font-size: 84vw !important;
+}
+.-fsize-86vw{
+  font-size: 86vw !important;
+}
+.-fsize-88vw{
+  font-size: 88vw !important;
+}
+.-fsize-90vw{
+  font-size: 90vw !important;
+}
+.-fsize-92vw{
+  font-size: 92vw !important;
+}
+.-fsize-94vw{
+  font-size: 94vw !important;
+}
+.-fsize-96vw{
+  font-size: 96vw !important;
+}
+.-fsize-98vw{
+  font-size: 98vw !important;
+}
+.-fsize-100vw{
+  font-size: 100vw !important;
+}
+.-fsize-102vw{
+  font-size: 102vw !important;
+}
+.-fsize-104vw{
+  font-size: 104vw !important;
+}
+.-fsize-106vw{
+  font-size: 106vw !important;
+}
+.-fsize-108vw{
+  font-size: 108vw !important;
+}
+.-fsize-110vw{
+  font-size: 110vw !important;
+}
+
+/*---------End Font Size Variables VIEWPORT----------*/
+
+
+/*START FONTS VARIABLES*/
+
+/*---------------------- Another Font ------------------------------*/
+
+.-font-Arial{
+  font-family: Arial !important;
+}
+.-font-SansSerif{
+  font-family: sans-serif !important;
+}
+.-font-Serif{
+  font-family: serif !important;
+}
+.-font-Poppins{
+  font-family: Poppins !important;
+}
+.-font-Fantasy{
+  font-family: fantasy !important;
+}
+.-font-Cursive{
+  font-family: cursive !important;
+}
+.-font-Inherit{
+  font-family: inherit !important;
+}
+.-font-Monospace{
+  font-family: monospace !important;
+}
+.-font-OpenSans{
+  font-family: 'Open Sans', sans-serif !important;
+}
+.-font-Limelight{
+  font-family: 'Limelight', cursive !important;
+}
+.-font-Roboto{
+  font-family: 'Roboto', sans-serif !important;
+}
+.-font-SigmarOne{
+  font-family: 'Sigmar One', cursive !important;
+}
+.-font-Zcool{
+  font-family: 'ZCOOL KuaiLe', cursive !important;
+}
+.-font-BebasN{
+  font-family: 'Bebas Neue', cursive !important;
+}
+.-font-SuezOne{
+  font-family: 'Suez One', serif !important;
+}
+.-font-Teko{
+  font-family: 'Teko', sans-serif !important;
+}
+.-font-Anton{
+  font-family: 'Anton', sans-serif !important;
+}
+.-font-DancingS{
+  font-family: 'Dancing Script', cursive !important;
+}
+.-font-Lobster{
+  font-family: 'Lobster', cursive !important;
+}
+.-font-Pattaya{
+  font-family: 'Pattaya', sans-serif !important;
+}
+.-font-FjallaOne{
+  font-family: 'Fjalla One', sans-serif !important;
+}
+.-font-Pacifico{
+  font-family: 'Pacifico', cursive !important;
+}
+.-font-IndieFlower{
+  font-family: 'Indie Flower', cursive !important;
+}
+.-font-ShadowsIL{
+  font-family: 'Shadows Into Light', cursive !important;
+}
+.-font-AbrilF{
+  font-family: 'Abril Fatface', cursive !important;
+}
+.-font-Staatliches{
+  font-family: 'Staatliches', cursive !important;
+}
+.-font-FredokaOne{
+  font-family: 'Fredoka One', cursive !important;
+}
+.-font-AlfaSlabOne{
+  font-family: 'Alfa Slab One', cursive !important;
+}
+.-font-Cinzel{
+  font-family: 'Cinzel', serif !important;
+}
+.-font-LondrinaS{
+  font-family: 'Londrina Solid', cursive !important;
+}
+.-font-ArchivoBlack{
+  font-family: 'Archivo Black', sans-serif !important;
+}
+
+/*---------------------- end Another Font --------------------------*/
+
+/*END FONTS VARIABLES*/
+
+
+
+/*PARALLAX BACKGROUNDS*/
+
+.-bg-parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*END PARALLAX BACCKGROUNDS*/

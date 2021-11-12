@@ -4,10 +4,16 @@ GPL V3
 
 */
 
-
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+@import url('http://fonts.cdnfonts.com/css/orange-slices');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
 
 
 html,body{
@@ -26,6 +32,8 @@ html,body{
 
 body {
   font-family: "Poppins", sans-serif;
+  color: white;
+
 }
 
 
@@ -37,7 +45,9 @@ body {
   height: 70px;
   font-weight: 700;
   padding: 0 30px;
-  background-color: rgb(255,217,0);
+  /*background-color: rgb(255,217,0);*/
+  background: rgb(2,0,36);
+
   font-size: 16px;
 }
 
@@ -183,11 +193,58 @@ background-size: cover;
 }
 
 
+h1.info-title{
+  font-size: 5vw;
+  text-align: center;
+  font-family: Poppins;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  /*color: lightpink;*/
+/*  color: rgb(2,0,36);*/
+  color: #29114d;
+}
+
+.parallax3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+/* The image used */
+background-image: url("../media/9.jpg"); /*Use .jpg image for  a speed loading */
+
+/* Set a specific height */
+min-height: 1000px;
+width: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: scroll;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
 
 .parallax2 .media-button{
   transition: all 0.5s ease;
   background-color: white;
   color: black;
+}
+
+.parallax3 .media-button{
+  border: solid 2px white;
+  transition: all 0.5s ease;
+  background-color: white;
+  color: black;
+}
+
+.parallax3 .media-button:hover{
+  transition: all 0.5s ease;
+  background-color: black;
+  color: white;
+  border: solid 2px black;
 }
 
 
@@ -212,7 +269,10 @@ p.fluffy {
   display: flex;
   justify-content: space-between;
   font-weight: 700;
-  background-color: rgb(255,217,0);
+  /*background-color: rgb(255,217,0);*/
+/*  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(196,41,151,1) 35%, rgba(0,212,255,1) 100%);*/
+  background: rgb(2,0,36);
+
 }
 
 span.footer-title{
@@ -264,7 +324,9 @@ h1.about-title{
   text-align: center;
   font-weight: 700;
   padding-top: 20px;
+  padding-bottom: 20px;
   margin: 0;
+  color: black;
 }
 
 .parallax-about {
@@ -362,6 +424,15 @@ p.parallax2-descrizione{
 }
 
 
+/*INFO.HTML CSS*/
+
+.homepage-info{
+  width: 100%;
+  background-color: white;
+
+}
+
+
 /*RESPONSIVE */
 @media (max-width:780px){
   .navbar{
@@ -406,6 +477,9 @@ p.parallax2-descrizione{
   font-family: "Poppins",sans-serif;
   margin: 0;
   margin-left: 3px;
+}
+h1.info-title{
+  font-size: 14vw;
 }
 
 }
